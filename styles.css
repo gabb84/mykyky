@@ -316,3 +316,32 @@ footer {
   }
 }
 
+.first-month-letter p {
+  text-align: center;
+  background-color: #ffffffcc;
+  border-radius: 16px;
+  padding: 3rem; 
+  margin-bottom: 2rem;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
+
+.first-month-letter p {
+  max-width: 800px; 
+  margin: 2rem auto; 
+}
+
+.first-month-letter h4 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 3em;
+}
+
+.end {
+  text-align: center;
+  font-size: 15px;
+}
+
+
