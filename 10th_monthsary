@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 
+        Author: Bondoc, Gabriel Joaquin C.
+        5th Monthsary Page
+    -->
+    <meta charset="utf-8">
+    <title>8th Monthsary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Poppins&family=Nunito&family=Baloo+2&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <div class="navi">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">About Us</a></li>
+                <li><a href="whyiloveyou.html">Why I Love You</a></li>
+                <li><a href="photogallery.html">Photo Gallery</a></li>
+                <li><a href="specialmessage.html">Special Message</a></li>
+                <li><a href="1st_monthsary.html">1st Month</a></li>
+                <li><a href="2nd_monthsary.html">2nd Month</a></li>
+                <li><a href="3rd_monthsary.html">3rd Month</a></li>
+                <li><a href="4th_monthsary.html">4th Month</a></li>
+                <li><a href="5th_monthsary.html">5th Month</a></li>
+                <li><a href="6th_monthsary.html">6th Month</a></li>
+                <li><a href="7th_monthsary.html">7th Month</a></li>
+                <li><a href="8th_monthsary.html">8th Month</a></li>
+                <li><a href="9th_monthsary.html">9th Month</a></li>
+                <li><a href="valentinesday.html">Valentine's Day</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1>Happy 9th Monthsary!</h1>
+    <h3>gabgab & kyky</h3>
+
+    <div class="first-month-letter">
+        <h4>A letter to start off our 9th Monthsary</h4>
+        <p>Loving you is probably one my best decisions in life. You being my partner makes me feel that I'm the luckiest man alive. Thank you so much
+            for everything bebi! I appreciate everything that you do for me, you give light sa madilim at magulong mundo. I'm sorry din sa mga errors ko bebiii!
+            Day by day, I'm doing my best to get that best version of myself. Remember na I will support you all throughout bebi, kakampi moko sa saya at sa mga
+            hamon ng buhay. I will guide you and protect you bebi. Happy Monthsary bebi kyky, I Love Youuuuuuuuuuu!!!!!!!!!
+
+        </p>
+        <p class="end"><strong>More moments to come! <br>Mahal na mahal kita ngayon at kailanman.</strong>
+        <br>
+        <em>- gab</em>
+        </p>
+    </div>
+
+</body>
+</html>
