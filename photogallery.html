@@ -9,25 +9,108 @@
   <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet" />
 </head>
 <body>  
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
     <div class="navi">
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">About Us</a></li>
-                <li><a href="whyiloveyou.html">Why I Love You</a></li>
-                <li><a href="photogallery.html">Photo Gallery</a></li>
-                <li><a href="specialmessage.html">Special Message</a></li>
-                <li><a href="1st_monthsary.html">1st Month</a></li>
-                <li><a href="2nd_monthsary.html">2nd Month</a></li>
-                <li><a href="3rd_monthsary.html">3rd Month</a></li>
-                <li><a href="4th_monthsary.html">4th Month</a></li>
-                <li><a href="5th_monthsary.html">5th Month</a></li>
-                <li><a href="6th_monthsary.html">6th Month</a></li>
-                <li><a href="7th_monthsary.html">7th Month</a></li>
-                <li><a href="8th_monthsary.html">8th Month</a></li>
-                <li><a href="9th_monthsary.html">9th Month</a></li>
-                <li><a href="valentinesday.html">Valentine's Day</a></li>
+
+        <nav class="navbar">
+
+            <div class="nav-header">
+
+                <a href="index.html" class="nav-logo">
+                    ♡ Gab & Kyky ♡
+                </a>
+
+                <button class="menu-toggle" id="menuToggle">
+                    ☰
+                </button>
+
+            </div>
+
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="index.html">About Us</a>
+                </li>
+
+                <li>
+                    <a href="whyiloveyou.html">Why I Love You</a>
+                </li>
+
+                <li class="anniversary-link">
+                    <a href="photogallery.html">Photo Gallery</a>
+                </li>
+
+                <li>
+                    <a href="specialmessage.html">Special Message</a>
+                </li>
+
+
+                <li>
+                    <a href="1st_monthsary.html">1st Month</a>
+                </li>
+
+                <li>
+                    <a href="2nd_monthsary.html">2nd Month</a>
+                </li>
+
+                <li>
+                    <a href="3rd_monthsary.html">3rd Month</a>
+                </li>
+
+                <li>
+                    <a href="4th_monthsary.html">4th Month</a>
+                </li>
+
+                <li>
+                    <a href="5th_monthsary.html">5th Month</a>
+                </li>
+
+                <li>
+                    <a href="6th_monthsary.html">6th Month</a>
+                </li>
+
+                <li>
+                    <a href="7th_monthsary.html">7th Month</a>
+                </li>
+
+                <li>
+                    <a href="8th_monthsary.html">8th Month</a>
+                </li>
+
+                <li>
+                    <a href="9th_monthsary.html">9th Month</a>
+                </li>
+
+                <li>
+                    <a href="10th_monthsary.html">10th Month</a>
+                </li>
+
+                <li>
+                    <a href="11th_monthsary.html">11th Month</a>
+                </li>
+
+
+                <li>
+                    <a href="valentinesday.html">Valentine's Day</a>
+                </li>
+
+
+                <li>
+
+                    <a href="1st_anniversary.html">
+                         1st Anniversary 
+                    </a>
+
+                </li>
+
             </ul>
+
         </nav>
+
     </div>
     <h1>Photo Gallery</h1>
     <h3>gabgab & kyky</h3>
@@ -61,4 +144,41 @@
     <div class="gallery-item"><img src="images/pic25.jpg" alt="Memory 25" /></div>
   </div>
 </body>
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <p>
+            A website made with love by Gab 
+        </p>
+
+    </footer>
+
+
+
+    <!-- =========================
+         HAMBURGER SCRIPT
+    ========================== -->
+
+    <script>
+
+        const menuToggle = document.getElementById("menuToggle");
+
+        const navLinks = document.getElementById("navLinks");
+
+
+        menuToggle.addEventListener("click", function () {
+
+            navLinks.classList.toggle("active");
+
+        });
+
+    </script>
+
+
+</body>
+
 </html>
